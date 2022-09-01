@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D4mOupqfiWEngJLezPDg8zGEUeZPgOrVb+J/lUIhHRlkZ/54KsOrkwS+C83PgqeRnG7FMW5V0HCWafF4ZFngzQ==",
+  "dgSpecHash": "5mTTxJePixvRZfsN8HALzDyKZ9ULiRPNbdoY8k5psu+VmZgop9PBStDz5nf5sGen2HKQ2aHJXQIhbWnkmUyyUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GIVEN MNISI\\Downloads\\CMPG323-Project-2-34292748\\CMPG323-Project-2-34292748.csproj",
+  "projectFilePath": "C:\\Users\\GIVEN MNISI\\Source\\Repos\\givenmnisi6\\CMPG323-Project-2-34292748\\CMPG323-Project-2-34292748\\CMPG323-Project-2-34292748.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GIVEN MNISI\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\GIVEN MNISI\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
