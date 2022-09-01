@@ -9,3 +9,4 @@
 - The ASP.NET Core Web API was created with the 3.1 Framework.
 - The database was scaffold - which produces an Entity Framework model from an existing database by input my connection string from Azure.
 - I have applied dependency injection that allows me to develop loosely-coupled code.
+- All about developments
