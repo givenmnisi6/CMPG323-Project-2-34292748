@@ -5,7 +5,7 @@
 - A secure service account username and password have been assigned to the SQL Server on Azure.
 - The database on Azure SQL Server has been built, and the script with the necessary tables has been run.
 
-## Phase 2 - API Project
+## Phase 2 - API Configuration
 - The ASP.NET Core Web API was created with the 3.1 Framework.
 - The database was scaffold - which produces an Entity Framework model from an existing database by input my connection string from Azure.
 - I have applied dependency injection that allows me to develop loosely-coupled code.
