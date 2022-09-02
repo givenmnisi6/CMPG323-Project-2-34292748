@@ -22,4 +22,6 @@
 - It already has most of the methods (GET, POST, DELETE etc.)
 - After that i created a pushed to my develop branch, and made a pull request to grab the changes that i have made. 
 - Seeing that everything is working i created a merge request to my main branch.
+- On this Project i am using GitHub Flow, when the code is working properly i create a pull request to the main.
+- 
 
