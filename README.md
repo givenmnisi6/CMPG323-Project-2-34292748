@@ -24,6 +24,13 @@
 - Seeing that everything is working i created a merge request to my main branch.
 - On this Project I am using GitHub Flow, when the code is working properly i create a pull request to the main.
 
+### Methods
+Representational State Transfer (REST) is a web service architecture approach. REST queries are sent through HTTP. They employ the same HTTP verbs that web browsers employ to get pages and transfer data to servers.
+- GET: Retrieve all data from the database.
+- GET: Retrieve data from the database based on the ID entered.
+- POST: Create a new item of data on the database.
+- PATCH: Update an existing item of data on the database.
+- DELETE: Delete an item of data on the database.
 
 ## References
 - Zhou, W., Li, L., Luo, M. and Chou, W., 2014, May. REST API design patterns for SDN northbound API. <i> In 2014 28th international conference on advanced information networking and applications workshops </i> (pp. 358-365). IEEE.
