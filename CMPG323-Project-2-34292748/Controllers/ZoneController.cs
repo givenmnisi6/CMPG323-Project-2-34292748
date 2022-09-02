@@ -41,10 +41,37 @@ namespace CMPG323_Project_2_34292748.Controllers
             return zone;
         }
 
+        // POST: api/Zone
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [HttpPost("Create Zone")]
+        public async Task<ActionResult<Zone>> PostZone(Zone zone)
+        {
+            _context.Zone.Add(zone);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (ZoneExists(zone.ZoneId))
+                {
+                    return Conflict();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return CreatedAtAction("GetZone", new { id = zone.ZoneId }, zone);
+        }
+
+
         // PUT: api/Zone/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("Update Zone")]
+        [HttpPatch("Update Existing Zone")]
         public async Task<IActionResult> PutZone(Guid id, Zone zone)
         {
             if (id != zone.ZoneId)
@@ -73,32 +100,7 @@ namespace CMPG323_Project_2_34292748.Controllers
             return NoContent();
         }
 
-        // POST: api/Zone
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost("Create Zone")]
-        public async Task<ActionResult<Zone>> PostZone(Zone zone)
-        {
-            _context.Zone.Add(zone);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (ZoneExists(zone.ZoneId))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return CreatedAtAction("GetZone", new { id = zone.ZoneId }, zone);
-        }
-
+       
         // DELETE: api/Zone/5
         [HttpDelete("Delete Zone")]
         public async Task<ActionResult<Zone>> DeleteZone(Guid id)
