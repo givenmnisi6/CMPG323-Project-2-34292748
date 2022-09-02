@@ -16,7 +16,7 @@
 - I have applied dependency injection that allows me to develop loosely-coupled code.
 - Cloned my project to the GitHub repository.
 
-## Phase 3 - Device Management Functionality
+## Phase 3 - Functionality
 - Created a new branch so that i can start developing my project and merging it to the main after big changes.
 - When i created the Category Controller, i have made one that has actions, using Framework Entity. 
 - It already has most of the methods (GET, POST, DELETE etc.)
@@ -25,3 +25,5 @@
 - On this Project I am using GitHub Flow, when the code is working properly i create a pull request to the main.
 
 
+## References
+- Zhou, W., Li, L., Luo, M. and Chou, W., 2014, May. REST API design patterns for SDN northbound API. In 2014 28th international conference on advanced information networking and applications workshops (pp. 358-365). IEEE.
