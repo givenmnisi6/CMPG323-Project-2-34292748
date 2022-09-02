@@ -16,7 +16,7 @@
 - I have applied dependency injection that allows me to develop loosely-coupled code.
 - Cloned my project to the GitHub repository.
 
-## Phase 3 - Functionality 
+## Phase 3 - Device Management Functionality
 - Created a new branch so that i can start developing my project and merging it to the main after big changes.
 - When i created the Category Controller, i have made one that has actions, using Framework Entity. 
 - It already has most of the methods (GET, POST, DELETE etc.)
