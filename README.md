@@ -18,5 +18,6 @@
 
 ## Phase 3 - Functionality 
 - Created a new branch so that i can start developing my project and merging it to the main after big changes.
-- Populated my categories controller.
+- When i created the Category Controller, i have made one that has actions, using Framework Entity. 
+- It already has most of the methods.
 

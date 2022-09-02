@@ -9,7 +9,7 @@ using CMPG323_Project_2_34292748.Models;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
     public class ZoneController : ControllerBase
     {
@@ -21,14 +21,14 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
         // GET: api/Zone
-        [HttpGet]
+        [HttpGet("Request all Zones")]
         public async Task<ActionResult<IEnumerable<Zone>>> GetZone()
         {
             return await _context.Zone.ToListAsync();
         }
 
         // GET: api/Zone/5
-        [HttpGet("{id}")]
+        [HttpGet("Search Zone")]
         public async Task<ActionResult<Zone>> GetZone(Guid id)
         {
             var zone = await _context.Zone.FindAsync(id);
@@ -44,7 +44,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         // PUT: api/Zone/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut("Update Zone")]
         public async Task<IActionResult> PutZone(Guid id, Zone zone)
         {
             if (id != zone.ZoneId)
@@ -76,7 +76,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         // POST: api/Zone
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
+        [HttpPost("Create Zone")]
         public async Task<ActionResult<Zone>> PostZone(Zone zone)
         {
             _context.Zone.Add(zone);
@@ -100,7 +100,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
         // DELETE: api/Zone/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete Zone")]
         public async Task<ActionResult<Zone>> DeleteZone(Guid id)
         {
             var zone = await _context.Zone.FindAsync(id);
