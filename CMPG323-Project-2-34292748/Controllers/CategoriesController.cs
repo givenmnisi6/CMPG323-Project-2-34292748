@@ -6,10 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CMPG323_Project_2_34292748.Models;
+using Microsoft.AspNetCore.Mvc.Routing;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
@@ -21,14 +22,14 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
         // GET: api/Categories
-        [HttpGet]
+        [HttpGet("Get all Categories")]
         public async Task<ActionResult<IEnumerable<Category>>> GetCategory()
         {
             return await _context.Category.ToListAsync();
         }
 
         // GET: api/Categories/5
-        [HttpGet("{id}")]
+        [HttpGet("Get Category")]
         public async Task<ActionResult<Category>> GetCategory(Guid id)
         {
             var category = await _context.Category.FindAsync(id);
@@ -41,10 +42,36 @@ namespace CMPG323_Project_2_34292748.Controllers
             return category;
         }
 
+        // POST: api/Categories
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for
+        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        [HttpPost("Create Category")]
+        public async Task<ActionResult<Category>> PostCategory(Category category)
+        {
+            _context.Category.Add(category);
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (CategoryExists(category.CategoryId))
+                {
+                    return Conflict();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
+        }
+
         // PUT: api/Categories/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPatch("Update Existing Category")]
         public async Task<IActionResult> PutCategory(Guid id, Category category)
         {
             if (id != category.CategoryId)
@@ -73,34 +100,10 @@ namespace CMPG323_Project_2_34292748.Controllers
             return NoContent();
         }
 
-        // POST: api/Categories
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
-        public async Task<ActionResult<Category>> PostCategory(Category category)
-        {
-            _context.Category.Add(category);
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateException)
-            {
-                if (CategoryExists(category.CategoryId))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return CreatedAtAction("GetCategory", new { id = category.CategoryId }, category);
-        }
+       
 
         // DELETE: api/Categories/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete Category")]
         public async Task<ActionResult<Category>> DeleteCategory(Guid id)
         {
             var category = await _context.Category.FindAsync(id);

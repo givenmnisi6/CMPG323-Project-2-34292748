@@ -9,7 +9,7 @@ using CMPG323_Project_2_34292748.Models;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("")]
     [ApiController]
     public class DevicesController : ControllerBase
     {
@@ -21,14 +21,14 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
         // GET: api/Devices
-        [HttpGet]
+        [HttpGet("Request all Devices")]
         public async Task<ActionResult<IEnumerable<Device>>> GetDevice()
         {
             return await _context.Device.ToListAsync();
         }
 
         // GET: api/Devices/5
-        [HttpGet("{id}")]
+        [HttpGet("Search Device")]
         public async Task<ActionResult<Device>> GetDevice(Guid id)
         {
             var device = await _context.Device.FindAsync(id);
@@ -44,7 +44,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         // PUT: api/Devices/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut("Update Device")]
         public async Task<IActionResult> PutDevice(Guid id, Device device)
         {
             if (id != device.DeviceId)
@@ -76,7 +76,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         // POST: api/Devices
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
+        [HttpPost("Create Device")]
         public async Task<ActionResult<Device>> PostDevice(Device device)
         {
             _context.Device.Add(device);
@@ -100,7 +100,7 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
         // DELETE: api/Devices/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete Device")]
         public async Task<ActionResult<Device>> DeleteDevice(Guid id)
         {
             var device = await _context.Device.FindAsync(id);
