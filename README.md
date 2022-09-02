@@ -19,5 +19,7 @@
 ## Phase 3 - Functionality 
 - Created a new branch so that i can start developing my project and merging it to the main after big changes.
 - When i created the Category Controller, i have made one that has actions, using Framework Entity. 
-- It already has most of the methods.
+- It already has most of the methods (GET, POST, DELETE etc.)
+- After that i created a pushed to my develop branch, and made a pull request to grab the changes that i have made. 
+- Seeing that everything is working i created a merge request to my main branch.
 
