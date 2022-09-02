@@ -27,3 +27,13 @@
 
 ## References
 - Zhou, W., Li, L., Luo, M. and Chou, W., 2014, May. REST API design patterns for SDN northbound API. In 2014 28th international conference on advanced information networking and applications workshops (pp. 358-365). IEEE.
+- Sohan, S.M., Maurer, F., Anslow, C. and Robillard, M.P., 2017, October. A study of the effectiveness of usage examples in REST API documentation. In 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC) (pp. 53-61). IEEE.
+Masse, M., 2011. REST API design rulebook: designing consistent RESTful web service interfaces. " O'Reilly Media, Inc.".
+- Soni, A. and Ranga, V., 2019. API features individualizing of web services: REST and SOAP. International Journal of Innovative Technology and Exploring Engineering, 8(9), pp.664-671.
+Mumbaikar, S. and Padiya, P., 2013. Web services based on soap and rest principles. International Journal of Scientific and Research Publications, 3(5), pp.1-4.
+- Halili, F. and Ramadani, E., 2018. Web services: a comparison of soap and rest services. Modern Applied Science, 12(3), p.175.
+- De, B., 2017. API documentation. In API Management (pp. 59-80). Apress, Berkeley, CA.
+- Surwase, V., 2016. REST API modeling languages-a developer’s perspective. Int. J. Sci. Technol. Eng, 2(10), pp.634-637.
+- Chadwick, J., Snyder, T. and Panda, H., 2012. Programming ASP. NET MVC 4: Developing Real-World Web Applications with ASP. NET MVC. " O'Reilly Media, Inc.".
+- Haunts, S., 2019. Key Storage and Azure Key Vault. In Applied Cryptography in. NET and Azure Key Vault (pp. 143-168). Apress, Berkeley, CA.
+- Herath, P., 2022. Working with Azure Key Vault. In Azure Cloud Security for Absolute Beginners (pp. 71-91). Apress, Berkeley, CA.
