@@ -2,7 +2,7 @@
 ## Application Programming Interfaces (APIs) Development
 
 ## More about the Project
-Now we're more connected that ever, you can purchase anything by your fingertips from desktops, phones etc. But how does data get from here to there, how do devices and applications connect with each other to allow us to place an order, make a reservation or book a flight with just a few things. That's where the Application Programming Interface (API) comes in, it is the engine under the hood and is behind the scenes that we take for granted but its what makes possible all the interactivity we've come to expect and rely upon. An API is the messenger that takes requests and tells a system what you want to do and then returns the response back to you. To make it clearer think of an API as a waiter in a restaurant and imagine you're sitting with a menu of choice to order from, in the kitchen is the part of the system which will prepare your order. What is missing is the communication link between your order and the kitchen that will deliver your food back to your table. That's where the API (waiter) comes in, it is the messenger that takes your request or order and tells the system (kitchen) what to do and delivers the response back to you which is food. 
+Now we're more connected than ever, you can purchase anything with your fingertips from desktops, phones, etc. But how does data get from here to there, how do devices and applications connect to allow us to place an order, make a reservation or book a flight with just a few things. That's where the Application Programming Interface (API) comes in, it is the engine under the hood and is behind the scenes that we take for granted but it's what makes possible all the interactivity we've come to expect and rely upon. An API is a messenger that takes requests and tells a system what you want to do and then returns the response to you. To make it clearer think of an API as a waiter in a restaurant and imagine you're sitting with a menu of choice to order from, in the kitchen is the part of the system which will prepare your order. What is missing is the communication link between your order and the kitchen that will deliver your food back to your table. That's where the API (waiter) comes in, it is the messenger that takes your request or order and tells the system (kitchen) what to do, and delivers the response back to you which is food.
 
 <img src="/Images/API.png" alt="API">
 
@@ -29,16 +29,16 @@ To GET any item, you must first POST (create) it because the response body will 
 - I have applied dependency injection that allows me to develop loosely-coupled code.
 - Cloned my project to the GitHub repository.
 
-## Phase 3 - Functionality
-- Created a new branch so that i can start developing my project and merging it to the main after big changes.
-- When i created the Category Controller, i have made one that has actions, using Framework Entity. 
-- It already has most of the methods (GET, POST, DELETE etc.)
-- After that i created a pushed to my develop branch, and made a pull request to grab the changes that i have made. 
-- Seeing that everything is working i created a merge request to my main branch.
-- On this Project I am using GitHub Flow, when the code is working properly i create a pull request to the main.
+## Phase 3 - Functionality of Controllers
+- I created a new branch called develop to begin building my project and merging it to the main after significant modifications.
+- When When I constructed the Controllers, I used Framework Entity to build one with actions.
+- It already has the majority of the methods (GET, POST, DELETE etc.)
+- I then issued a push to my develop branch and a pull request to retrieve the modifications that I had done.
+- After seeing that everything was operating well, I created a merge request to my main branch.
+- On this project, I'm using GitHub Flow, and when the code is complete, I make a pull request to the main.
 
 ### Methods
-Representational State Transfer (REST) is a web service architecture approach. REST queries are sent through HTTP. They employ the same HTTP verbs that web browsers employ to get pages and transfer data to servers.
+The methods that are used in my API are the following: 
 - GET: Retrieve all data from the database.
 - GET: Retrieve data from the database based on the ID entered.
 - POST: Create a new item of data on the database.
@@ -46,10 +46,10 @@ Representational State Transfer (REST) is a web service architecture approach. R
 - DELETE: Delete an item of data on the database.
 
 ## Security
-The disadvantage of publicly available web APIs is that they may offer significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers to API queries.  Concerning possible vulnerability A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities are ones that have not yet been identified., an API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
+The disadvantage of publicly available web APIs is that they may offer a significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers API queries.  Concerning possible vulnerability, A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities have not yet been identified. An API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
 
 ### Authentication
-So i have to authenticate my API so that no malicious code is put into it, so i will be using token based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first then login. Also there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin pesonnel can access it.
+So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access it.
 
 
 ## Reference List
