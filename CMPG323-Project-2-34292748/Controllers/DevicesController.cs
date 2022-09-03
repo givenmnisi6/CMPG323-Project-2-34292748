@@ -4,18 +4,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CMPG323_Project_2_34292748.Models;
+using JWTAuthentication.Authentication;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("")]
     [ApiController]
     public class DevicesController : ControllerBase
     {
-        private readonly ConnectedOfficedbContext _context;
+        private readonly Models.ConnectedOfficedbContext _context;
 
-        public DevicesController(ConnectedOfficedbContext context)
+        public DevicesController(Models.ConnectedOfficedbContext context)
         {
             _context = context;
         }
