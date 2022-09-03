@@ -7,7 +7,11 @@ Now we're more connected that ever, you can purchase anything by your fingertips
 <img src="/Images/API.png" alt="API">
 
 ### API Contract
-API Contract is API documentation that informs users on how this API will behave, as well as the endpoint URLs. The API contract contains the activity of each endpoint, sample replies, error information, and any other API-related details. API Contract is published by the service provider for the consumers of the API. The document is usually developer centric. API contract can be created in several formats but the most popular is the Open API specification (formerly known as Swagger.
+API Contract is API documentation that informs users on how this API will behave, as well as the endpoint URLs. The API contract contains the activity of each endpoint, sample replies, error information, and any other API-related details. API Contract is published by the service provider for the consumers of the API. The document is usually developer centric. API contract can be created in several formats but the most popular is the Open API specification (formerly known as Swagger).
+
+## Manual
+Stakeholders will run the software and navigate to the Swagger UI, where they will find choices such as getting all the items in the database, getting any item by its ID, creating a new item, updating an item, and deleting an item.
+To GET any item, you must first POST (create) it because the response body will only include empty parenthesis. To add an item, go to POST and then execute. You will be needed to input an ID and further information before executing. You will be given a code, and next to it will be a response body where you can view what you have generated. You can GET, PATCH, DELETE an item by its ID.
 
 ## Phase 1 - GitHub Administration
 - Created & Configured my GitHub repository while i'm busy with the training.
