@@ -1,5 +1,8 @@
 # CMPG323-Project-2-34292748
 ## Application Programming Interfaces (APIs) Development
+
+## More about the Project
+- Now we're more connected that ever, you can purchase anything by your fingertips from desktops, phones etc. But how does data get from here to there, how do devices and applications connect with each other to allow us to place an order make a reservation or book a flight with just a few things. That's where the Application Programming Interface (API) comes in, it is the engine under the hood and is behind the scenes that we take for granted but its what makes possible all the interactivity we've come to expect and rely upon. An API is the messenger that takes requests and tells a system what you want to do and then returnes the response back to you. To make it clearer 
 ## Phase 1 - GitHub Administration
 - Created & Configured my GitHub repository while i'm busy with the training.
 
