@@ -3,20 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CMPG323_Project_2_34292748.Models;
 using Microsoft.AspNetCore.Mvc.Routing;
+using JWTAuthentication.Authentication;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     [Route("")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ConnectedOfficedbContext _context;
+        private readonly Models.ConnectedOfficedbContext _context;
 
-        public CategoriesController(ConnectedOfficedbContext context)
+        public CategoriesController(Models.ConnectedOfficedbContext context)
         {
             _context = context;
         }

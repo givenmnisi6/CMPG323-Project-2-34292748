@@ -272,3 +272,9 @@ C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\obj\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.dll
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\obj\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.pdb
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\obj\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.genruntimeconfig.cache
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
