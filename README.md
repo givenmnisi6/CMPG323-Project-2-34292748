@@ -47,7 +47,11 @@ Representational State Transfer (REST) is a web service architecture approach. R
 
 ## Security
 The disadvantage of publicly available web APIs is that they may offer significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers to API queries.  Concerning possible vulnerability A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities are ones that have not yet been identified., an API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
-So i have to authenticate my API so that no malicious code is put into it, so i will be using token based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. 
+
+### Authentication
+So i have to authenticate my API so that no malicious code is put into it, so i will be using token based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first then login. Also there will be different roles given. After login in you will get the token to access everything.
+
+
 ## Reference List
 - Zhou, W., Li, L., Luo, M. and Chou, W., 2014, May. REST API design patterns for SDN northbound API. <i> In 2014 28th international conference on advanced information networking and applications workshops </i> (pp. 358-365). IEEE.
 - Sohan, S.M., Maurer, F., Anslow, C. and Robillard, M.P., 2017, October. A study of the effectiveness of usage examples in REST API documentation.<i> In 2017 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)</i>(pp. 53-61). IEEE.
