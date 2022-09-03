@@ -14,7 +14,7 @@ Stakeholders will run the software and navigate to the Swagger UI, where they wi
 To GET any item, you must first POST (create) it because the response body will only include empty parenthesis. To add an item, go to POST and then execute. You will be needed to input an ID and further information before executing. You will be given a code, and next to it will be a response body where you can view what you have generated. You can GET, PATCH, DELETE an item by its ID.
 
 ## Phase 1 - GitHub Administration
-- Created & Configured my GitHub repository while i'm busy with the training.
+- While I'm in training, I've created and configured my GitHub repository.
 
 ## Phase 2 - Data Source: Configure Database
 - I've begun with my API source control, and I've already loaded the local database.
