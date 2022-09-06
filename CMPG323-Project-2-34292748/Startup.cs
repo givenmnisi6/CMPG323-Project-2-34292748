@@ -28,7 +28,7 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<ConnectedOfficedbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+            services.AddDbContext<ConnectedOfficedbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultString")));
 
 
             services.AddSwaggerGen(c => {
@@ -60,7 +60,7 @@ namespace JWTAuthentication
             });
 
             // For Entity Framework  
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultString")));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()

@@ -46,19 +46,29 @@ namespace CMPG323_Project_2_34292748.Controllers
         }
 
        /* [HttpGet("Retrieve all Devices")]
-        public async Task<ActionResult<Zone>> GetDevice(Guid id)
-        {
-           
-            var device = await _context.Zone.FindAsync(id);
+         public async Task<ActionResult<Zone>> GetDevice(Guid id)
+         {
+            var results = await _context.Device.Join(
+                             _context.Zone,
+                             Devices => Devices.PrimaryKeyField,
+                             configAccess => Zone.ForeignKeyField,
+                             (Devices, zone) => new
+                             {
+                                 Devices = Devices,
+                                 zone = zone
+                             })
+                             .ToListAsync();
 
-            if (device == null)
-            {
-                return NotFound();
-            }
 
-            return device;
-        }
-       */
+
+             if (device == null)
+             {
+                 return NotFound();
+             }
+
+             return device;
+         }
+        */
         // POST: api/Zone
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
