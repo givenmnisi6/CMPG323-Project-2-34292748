@@ -58,10 +58,8 @@ namespace JWTAuthentication
     });
             });
 
-
             // For Entity Framework  
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));  
-            //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
