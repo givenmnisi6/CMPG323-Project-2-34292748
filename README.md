@@ -89,3 +89,6 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - Udacity (2016, Jun 6).<i> Token Based Authentication</i>. [Video]. YouTube https://youtu.be/woNZJMSNbuo <br></li>
 - WafaStudies. (2020, Jun 5).<i> Store Secrets in Azure Key Vault using Azure Portal</i>. [Video]. YouTube https://youtu.be/Rb7qz_emvsg<br></li>
 - Paddy Maddy. (2020, Dec 24).<i> Storage Account service Encryption Azure KeyVault secret key encryption</i>. [Video]. YouTube https://youtu.be/N6nNJ_NrbS4<br>
+- C. Nienaber & R. Suter. (2022, Mar). <i>ASP.NET Core web API documentation with Swagger / OpenAPI</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1
+- R. Anderson & K. Larkin. (2022, Aug).<i>Tutorial: Create a web API with ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+- R. Anderson & K. Larkin. (2022, Jul).<i> Configuration in ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0
