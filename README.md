@@ -18,6 +18,14 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 - To GET any item, you must first POST (create) it since you will get empty parenthesis if you did not enter anything.
 - You can delete or alter an item based on its ID.
 
+### Credentials to use:
+
+| Role          | Administrator   | User |
+| :------------ |:---------------:| -----:|
+| Username      | some wordy text | $1600 |
+| Password      | centered        |   $12 |
+
+
 ## Phase 1 - GitHub Administration
 - While I'm in training, I've created and configured my GitHub repository.
 
