@@ -9,9 +9,17 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 ### API Contract
 API Contract is API documentation that informs users on how this API will behave, as well as the endpoint URLs. The API contract contains the activity of each endpoint, sample replies, error information, and any other API-related details. API Contract is published by the service provider for the consumers of the API. The document is usually developer centric. API contract can be created in several formats but the most popular is the Open API specification (formerly known as Swagger).
 
-## Manual
-Stakeholders will run the software and navigate to the Swagger UI, where they will find choices such as getting all the items in the database, getting any item by its ID, creating a new item, updating an item, and deleting an item.
-To GET any item, you must first POST (create) it because the response body will only include empty parenthesis. To add an item, go to POST and then execute. You will be needed to input an ID and further information before executing. You will be given a code, and next to it will be a response body where you can view what you have generated. You can GET, PATCH, DELETE an item by its ID.
+## Manual for Stakeholders
+- Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
+- When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
+- Whereby they must register before utilizing it. They can sign up as either an administrator or a user.
+- When you are an Admin, you can CREATE, GET, DELETE, and so on.
+- You can either utilize the Categories, Device and Zone Controllers.
+- When you register, you must provide your username, email address, and password.
+- After login, you will receive an authentication token, which will be used to authorize you to utilize all API functions.
+- There are options for collecting all the items in the database, retrieving any item by its ID, adding a new item, changing an item, removing an item and so on.
+- To GET any item, you must first POST (create) it since you will get empty parenthesis if you did not enter anything.
+- You can delete or alter an item based on its ID.
 
 ## Phase 1 - GitHub Administration
 - While I'm in training, I've created and configured my GitHub repository.
