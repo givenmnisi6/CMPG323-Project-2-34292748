@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
-
+using CMPG323_Project_2_34292748.Models;
 
 namespace JWTAuthentication
 {
@@ -28,8 +28,7 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+            services.AddDbContext<ConnectedOfficedbContext>(options => options.UseSqlServer("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
@@ -61,7 +60,8 @@ namespace JWTAuthentication
 
 
             // For Entity Framework  
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));  
+            //services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -90,6 +90,7 @@ namespace JWTAuthentication
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
                 };
             });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.  
