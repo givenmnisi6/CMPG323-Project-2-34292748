@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using CMPG323_Project_2_34292748.Models;
 using JWTAuthentication.Authentication;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace CMPG323_Project_2_34292748.Controllers
 {
@@ -44,6 +45,20 @@ namespace CMPG323_Project_2_34292748.Controllers
             return zone;
         }
 
+       /* [HttpGet("Retrieve all Devices")]
+        public async Task<ActionResult<Zone>> GetDevice(Guid id)
+        {
+           
+            var device = await _context.Zone.FindAsync(id);
+
+            if (device == null)
+            {
+                return NotFound();
+            }
+
+            return device;
+        }
+       */
         // POST: api/Zone
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
