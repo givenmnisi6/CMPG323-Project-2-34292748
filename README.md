@@ -64,8 +64,8 @@ The methods that are used in my API are the following:
 ## Security
 The disadvantage of publicly available web APIs is that they may offer a significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers API queries.  Concerning possible vulnerability, A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities have not yet been identified. An API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
 
-### Authentication
-So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access it.
+### Authentication 
+So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access all of the API functions, when you are a user and you want to add any item you will get an error. I authenticated all of my controllers (Category, Device, Zone)
 
 
 ## Reference List
