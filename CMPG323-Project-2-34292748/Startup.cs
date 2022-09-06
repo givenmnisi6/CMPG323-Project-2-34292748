@@ -28,7 +28,8 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<ConnectedOfficedbContext>(options => options.UseSqlServer("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+            services.AddDbContext<ConnectedOfficedbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
@@ -59,7 +60,7 @@ namespace JWTAuthentication
             });
 
             // For Entity Framework  
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("Server=tcp:cmpg323sql.database.windows.net,1433;Initial Catalog=ConnectedOfficedb;Persist Security Info=False;User ID=givenmnisi6;Password=GM-0108095163086;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
 
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
