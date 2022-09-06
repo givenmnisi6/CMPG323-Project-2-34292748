@@ -92,3 +92,6 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - C. Nienaber & R. Suter. (2022, Mar). <i>ASP.NET Core web API documentation with Swagger / OpenAPI</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1
 - R. Anderson & K. Larkin. (2022, Aug).<i>Tutorial: Create a web API with ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 - R. Anderson & K. Larkin. (2022, Jul).<i> Configuration in ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0
+- Sanjay. (2021, Jul).<i> Entity Framework Core in ASP.NET Core 3.1 – Getting Started</i>. https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/
+- J. Muller. (2022, Jan). <i>Join two entities in.NET Core, using lambda and Entity Framerwork Core</i>. https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/
+- M. Soucoup. (2022, Mar). <i> Publish an ASP.NET Core web API to Azure API Management with Visual Studio </i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0
