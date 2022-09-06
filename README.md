@@ -63,4 +63,10 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - Chadwick, J., Snyder, T. and Panda, H., 2012. <i>Programming ASP. NET MVC 4: Developing Real-World Web Applications with ASP. NET MVC</i>. " O'Reilly Media, Inc.".
 - Haunts, S., 2019. Key Storage and Azure Key Vault.<i> In Applied Cryptography in. NET and Azure Key Vault </i>(pp. 143-168). Apress, Berkeley, CA.
 - Herath, P., 2022. Working with Azure Key Vault. <i>In Azure Cloud Security for Absolute Beginners</i> (pp. 71-91). Apress, Berkeley, CA.
-
+- MuleSoft Videos. (2015, Jun 20). <i> What is an API?</i>. [Video]. YouTube https://youtu.be/s7wmiS2mSXY <br></li>
+- Simply Explained. (2019, Nov 12).<i> What Are APIs? – Simply Explained</i>. [Video]. YouTube https://youtu.be/OVvTv9Hy91Q <br></li>
+- Imperva. (2019, Nov 16).<i> API Security Explained</i>. [Video]. YouTube https://youtu.be/LeVQlxLVD8A<br></li>
+- Nordic APIs. (2019, May 28).<i> 5 Best Practices for Securing Your APIs</i>. [Video]. YouTube https://youtu.be/6wRuKgjbBVU<br></li>
+- Udacity (2016, Jun 6).<i> Token Based Authentication</i>. [Video]. YouTube https://youtu.be/woNZJMSNbuo <br></li>
+- WafaStudies. (2020, Jun 5).<i> Store Secrets in Azure Key Vault using Azure Portal</i>. [Video]. YouTube https://youtu.be/Rb7qz_emvsg<br></li>
+- Paddy Maddy. (2020, Dec 24).<i> Storage Account service Encryption Azure KeyVault secret key encryption</i>. [Video]. YouTube https://youtu.be/N6nNJ_NrbS4<br>
