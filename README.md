@@ -54,6 +54,9 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 The methods that are used in my API are the following: 
 - GET: Retrieve all data from the database.
 - GET: Retrieve data from the database based on the ID entered.
+- GET: Retrieve all devices within a specific zone.
+- GET: Retrieve all devices within a specific category
+- GET: Return the number of zones that are associated to a specific category.
 - POST: Create a new item of data on the database.
 - PATCH: Update an existing item of data on the database.
 - DELETE: Delete an item of data on the database.
