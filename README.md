@@ -6,12 +6,25 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 
 <img src="/Images/API.png" alt="API">
 
-### API Contract
-API Contract is API documentation that informs users on how this API will behave, as well as the endpoint URLs. The API contract contains the activity of each endpoint, sample replies, error information, and any other API-related details. API Contract is published by the service provider for the consumers of the API. The document is usually developer centric. API contract can be created in several formats but the most popular is the Open API specification (formerly known as Swagger).
+## Manual for Stakeholders
+- Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
+- When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
+- Whereby they must register before utilizing it. They can sign up as either an administrator or a user.
+- When you are an Admin, you can CREATE, GET, DELETE, and so on.
+- You can either utilize the Categories, Device and Zone Controllers.
+- When you register, you must provide your username, email address, and password.
+- After login, you will receive an authentication token, which will be used to authorize you to utilize all API functions.
+- There are options for collecting all the items in the database, retrieving any item by its ID, adding a new item, changing an item, removing an item and so on.
+- To GET any item, you must first POST (create) it since you will get empty parenthesis if you did not enter anything.
+- You can delete or alter an item based on its ID.
 
-## Manual
-Stakeholders will run the software and navigate to the Swagger UI, where they will find choices such as getting all the items in the database, getting any item by its ID, creating a new item, updating an item, and deleting an item.
-To GET any item, you must first POST (create) it because the response body will only include empty parenthesis. To add an item, go to POST and then execute. You will be needed to input an ID and further information before executing. You will be given a code, and next to it will be a response body where you can view what you have generated. You can GET, PATCH, DELETE an item by its ID.
+### Credentials to use:
+
+| Role          | Administrator   | User |
+| :------------ |:---------------:| -----:|
+| Username      | some wordy text | $1600 |
+| Password      | centered        |   $12 |
+
 
 ## Phase 1 - GitHub Administration
 - While I'm in training, I've created and configured my GitHub repository.
@@ -41,6 +54,9 @@ To GET any item, you must first POST (create) it because the response body will 
 The methods that are used in my API are the following: 
 - GET: Retrieve all data from the database.
 - GET: Retrieve data from the database based on the ID entered.
+- GET: Retrieve all devices within a specific zone.
+- GET: Retrieve all devices within a specific category
+- GET: Return the number of zones that are associated to a specific category.
 - POST: Create a new item of data on the database.
 - PATCH: Update an existing item of data on the database.
 - DELETE: Delete an item of data on the database.
@@ -48,8 +64,11 @@ The methods that are used in my API are the following:
 ## Security
 The disadvantage of publicly available web APIs is that they may offer a significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers API queries.  Concerning possible vulnerability, A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities have not yet been identified. An API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
 
-### Authentication
-So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access it.
+## Credentials
+When it comes to storing my credentials, my connection string
+
+### Authentication 
+So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access all of the API functions, when you are a user and you want to add any item you will get an error. I authenticated all of my controllers (Category, Device, Zone)
 
 
 ## Reference List
@@ -63,4 +82,10 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - Chadwick, J., Snyder, T. and Panda, H., 2012. <i>Programming ASP. NET MVC 4: Developing Real-World Web Applications with ASP. NET MVC</i>. " O'Reilly Media, Inc.".
 - Haunts, S., 2019. Key Storage and Azure Key Vault.<i> In Applied Cryptography in. NET and Azure Key Vault </i>(pp. 143-168). Apress, Berkeley, CA.
 - Herath, P., 2022. Working with Azure Key Vault. <i>In Azure Cloud Security for Absolute Beginners</i> (pp. 71-91). Apress, Berkeley, CA.
-
+- MuleSoft Videos. (2015, Jun 20). <i> What is an API?</i>. [Video]. YouTube https://youtu.be/s7wmiS2mSXY <br></li>
+- Simply Explained. (2019, Nov 12).<i> What Are APIs? – Simply Explained</i>. [Video]. YouTube https://youtu.be/OVvTv9Hy91Q <br></li>
+- Imperva. (2019, Nov 16).<i> API Security Explained</i>. [Video]. YouTube https://youtu.be/LeVQlxLVD8A<br></li>
+- Nordic APIs. (2019, May 28).<i> 5 Best Practices for Securing Your APIs</i>. [Video]. YouTube https://youtu.be/6wRuKgjbBVU<br></li>
+- Udacity (2016, Jun 6).<i> Token Based Authentication</i>. [Video]. YouTube https://youtu.be/woNZJMSNbuo <br></li>
+- WafaStudies. (2020, Jun 5).<i> Store Secrets in Azure Key Vault using Azure Portal</i>. [Video]. YouTube https://youtu.be/Rb7qz_emvsg<br></li>
+- Paddy Maddy. (2020, Dec 24).<i> Storage Account service Encryption Azure KeyVault secret key encryption</i>. [Video]. YouTube https://youtu.be/N6nNJ_NrbS4<br>
