@@ -6,9 +6,6 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 
 <img src="/Images/API.png" alt="API">
 
-### API Contract
-API Contract is API documentation that informs users on how this API will behave, as well as the endpoint URLs. The API contract contains the activity of each endpoint, sample replies, error information, and any other API-related details. API Contract is published by the service provider for the consumers of the API. The document is usually developer centric. API contract can be created in several formats but the most popular is the Open API specification (formerly known as Swagger).
-
 ## Manual for Stakeholders
 - Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
 - When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
