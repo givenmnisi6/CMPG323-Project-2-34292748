@@ -6,7 +6,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 
 <img src="/Images/API.png" alt="API">
 
-## Manual for Stakeholders
+## Manual for the API
 - Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
 - When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
 - Whereby they must register before utilizing it. They can sign up as either an administrator or a user.
@@ -65,7 +65,7 @@ The methods that are used in my API are the following:
 The disadvantage of publicly available web APIs is that they may offer a significant danger to API providers. APIs are intended to provide others with access to your data: behind every API is an endpoint—the server (and its accompanying databases) that answers API queries.  Concerning possible vulnerability, A vulnerability is a flaw in a system (hardware or software) that can be exploited by an attacker. Vulnerabilities exist in any system; "zero-day" vulnerabilities have not yet been identified. An API endpoint is similar to any Internet-facing web server; the higher the public's free and open access to a resource, the greater the potential threat from bad actors.
 
 ## Credentials
-When it comes to storing my credentials, my connection string
+When it comes to storing my credentials, i have masked my connection string to "DefaultString" since it has sensitive information. The original connection string is in the appsettings.json. Which will be gitignored to prevent my credentials from being shown.
 
 ### Authentication 
 So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access all of the API functions, when you are a user and you want to add any item you will get an error. I authenticated all of my controllers (Category, Device, Zone)
@@ -89,3 +89,9 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - Udacity (2016, Jun 6).<i> Token Based Authentication</i>. [Video]. YouTube https://youtu.be/woNZJMSNbuo <br></li>
 - WafaStudies. (2020, Jun 5).<i> Store Secrets in Azure Key Vault using Azure Portal</i>. [Video]. YouTube https://youtu.be/Rb7qz_emvsg<br></li>
 - Paddy Maddy. (2020, Dec 24).<i> Storage Account service Encryption Azure KeyVault secret key encryption</i>. [Video]. YouTube https://youtu.be/N6nNJ_NrbS4<br>
+- C. Nienaber & R. Suter. (2022, Mar). <i>ASP.NET Core web API documentation with Swagger / OpenAPI</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-3.1
+- R. Anderson & K. Larkin. (2022, Aug).<i>Tutorial: Create a web API with ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+- R. Anderson & K. Larkin. (2022, Jul).<i> Configuration in ASP.NET Core</i>. https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0
+- Sanjay. (2021, Jul).<i> Entity Framework Core in ASP.NET Core 3.1 – Getting Started</i>. https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/
+- J. Muller. (2022, Jan). <i>Join two entities in.NET Core, using lambda and Entity Framerwork Core</i>. https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/
+- M. Soucoup. (2022, Mar). <i> Publish an ASP.NET Core web API to Azure API Management with Visual Studio </i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0
