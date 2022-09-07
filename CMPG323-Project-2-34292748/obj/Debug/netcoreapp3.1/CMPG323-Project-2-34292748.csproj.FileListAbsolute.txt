@@ -276,3 +276,5 @@ C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\GIVEN MNISI\source\repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\GIVEN MNISI\source\repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\appsettings.json
