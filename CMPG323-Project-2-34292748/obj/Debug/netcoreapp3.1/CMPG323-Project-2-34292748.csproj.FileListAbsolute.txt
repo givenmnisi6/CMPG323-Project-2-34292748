@@ -135,8 +135,6 @@ C:\Users\GIVEN MNISI\Downloads\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.
 C:\Users\GIVEN MNISI\Downloads\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\GIVEN MNISI\Downloads\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\GIVEN MNISI\Downloads\CMPG323-Project-2-34292748\obj\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.exe
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.deps.json
 C:\Users\GIVEN MNISI\Source\Repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\bin\Debug\netcoreapp3.1\CMPG323-Project-2-34292748.runtimeconfig.json
