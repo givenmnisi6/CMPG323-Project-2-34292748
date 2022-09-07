@@ -6,7 +6,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 
 <img src="/Images/API.png" alt="API">
 
-## Manual for Stakeholders
+## Manual for the API
 - Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
 - When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
 - Whereby they must register before utilizing it. They can sign up as either an administrator or a user.
