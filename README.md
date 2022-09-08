@@ -21,9 +21,9 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 ### Credentials to use:
 
 | Role          | Administrator   | User |
-| :------------ |:---------------:| -----:|
-| Username      | some wordy text | $1600 |
-| Password      | centered        |   $12 |
+| :------------ |:---------------:| :-----:|
+| Username      | John            | Jane |
+| Password      | cMPG323!        | CMPg323! |
 
 
 ## Phase 1 - GitHub Administration
