@@ -19,6 +19,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 - You can delete or alter an item based on its ID.
 
 ### Credentials to use:
+- Alternatively you can go to swagger using the following link https://asecmpg323-project-2-34292748.azurewebsites.net/swagger/index.html
 
 | Role          | Administrator   | User |
 | :------------ |:---------------:| :-----:|
