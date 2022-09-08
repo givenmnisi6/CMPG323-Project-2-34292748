@@ -11,6 +11,7 @@
     <WebStackScaffolding_DbContextTypeFullName>CMPG323_Project_2_34292748.Models.ConnectedOfficedbContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\GIVEN MNISI\source\repos\givenmnisi6\CMPG323-Project-2-34292748\CMPG323-Project-2-34292748\Properties\PublishProfiles\aseCMPG323-Project-2-34292748 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

@@ -19,11 +19,14 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 - You can delete or alter an item based on its ID.
 
 ### Credentials to use:
+- Alternatively you can go to swagger using the following: <a href= "https://asecmpg323-project-2-34292748.azurewebsites.net/swagger/index.html">SwaggerUI</a></li>
+
+
 
 | Role          | Administrator   | User |
-| :------------ |:---------------:| -----:|
-| Username      | some wordy text | $1600 |
-| Password      | centered        |   $12 |
+| :------------ |:---------------:| :-----:|
+| Username      | John            | Jane |
+| Password      | cMPG323!        | CMPg323! |
 
 
 ## Phase 1 - GitHub Administration
@@ -95,3 +98,9 @@ So I have to authenticate my API so that no malicious code is put into it, so I 
 - Sanjay. (2021, Jul).<i> Entity Framework Core in ASP.NET Core 3.1 – Getting Started</i>. https://procodeguide.com/programming/entity-framework-core-in-asp-net-core/
 - J. Muller. (2022, Jan). <i>Join two entities in.NET Core, using lambda and Entity Framerwork Core</i>. https://jd-bots.com/2022/01/24/join-two-entities-in-net-core-using-lambda-and-entity-framework-core/
 - M. Soucoup. (2022, Mar). <i> Publish an ASP.NET Core web API to Azure API Management with Visual Studio </i>. https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0
+- Price, M.J., 2019. <i>C# 8.0 and. NET Core 3.0–Modern Cross-Platform Development: Build applications with C#,. NET Core, Entity Framework Core, ASP. NET Core, and ML. NET using Visual Studio Code. Packt Publishing Ltd.</i>
+- Chanda, S. and Foggon, D., 2013. <i>Introducing Language-Integrated Query (LINQ)</i>. In Beginning ASP. NET 4.5 Databases (pp. 79-98). Apress, Berkeley, CA.
+- Azure Crash Course. <i>Azure API Management Crash Course.</i> [Video]. YouTube https://youtu.be/3z_XmIrGbsI
+- DEVREAL. <i>Azure API Management in 7 (from provisioning to API deployment) - tutorial for beginners.</i> [Video]. YouTube https://youtu.be/Gu9reN09mXI
+- Microsoft Azure.<i> Azure API Management.</i> [Video]. YouTube https://youtu.be/0yf_xm5cPIo
+- Reval Govender. <i>Git Flow Part 1 - What is Git Flow</i>. [Video]. YouTube https://youtu.be/6LhTe8Mz6jM

@@ -45,6 +45,28 @@ namespace CMPG323_Project_2_34292748.Controllers
             return category;
         }
 
+        [HttpGet("Fetch all Devices")]
+        public async Task<ActionResult<Device>> RetrieveAllDevices(Guid id)
+        {
+            if (_context.Device == null){
+                return NotFound();
+            } else {
+                return Ok(await _context.Device.Where(Device => Device.CategoryId == id).ToListAsync());
+            }
+        }
+
+        [HttpGet("Return Number of Zones")]
+        public async Task<ActionResult<Int64>> GetNumberOfZones(Guid id)
+        {
+            if (_context.Device == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return (await _context.Device.Where(device => device.CategoryId == id).Select(device => device.ZoneId).Distinct().CountAsync());
+            }
+        }
         // POST: api/Categories
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
