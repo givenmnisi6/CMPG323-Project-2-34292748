@@ -6,6 +6,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 
 <img src="/Images/API.png" alt="API">
 
+
 ## Manual for the API
 - Stakeholders will be able to use the API from Azure or they can download the code from my GitHub repository and execute it from Visual Studio.
 - When they execute it, it will lead them to the Swagger UI. Swagger UI is used to provide interactive API documentation that allows your users to test API calls in the browser.
@@ -73,6 +74,8 @@ When it comes to storing my credentials, i have masked my connection string to "
 ### Authentication 
 So I have to authenticate my API so that no malicious code is put into it, so I will be using token-based security. When you put the correct credentials a token will be provided to all the services that I will be accessing. So I will add endpoints in my API, whereby you register first and then log in. Also, there will be different roles given (Admin or User). After login in you will get the token whereby you will use to Authorize yourself in a Bearer Authentication, then you can use the API. Only admin personnel can access all of the API functions, when you are a user and you want to add any item you will get an error. I authenticated all of my controllers (Category, Device, Zone)
 
+## API Manager Endpoints
+<img src="/Images/API Manager.png" alt="API">
 
 ## Reference List
 - Zhou, W., Li, L., Luo, M. and Chou, W., 2014, May. REST API design patterns for SDN northbound API. <i> In 2014 28th international conference on advanced information networking and applications workshops </i> (pp. 358-365). IEEE.
