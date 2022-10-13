@@ -38,7 +38,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 - A secure service account username and password have been assigned to the SQL Server on Azure.
 - The database on Azure SQL Server has been built, and the script with the necessary tables has been run.
 
-## Phase 2 -Project Setup: API Project
+## Phase 3 -Project Setup: API Project
 - The ASP.NET Core Web API was created with the 3.1 Framework.
 - Installed all the frameworks that were needed in order to run the application.
 - Created the necessary Controllers. 
@@ -46,7 +46,7 @@ Now we're more connected than ever, you can purchase anything with your fingerti
 - I have applied dependency injection that allows me to develop loosely-coupled code.
 - Cloned my project to the GitHub repository.
 
-## Phase 3 - Functionality of Controllers
+## Phase 4 - Functionality of Controllers
 - I created a new branch called develop to begin building my project and merging it to the main after significant modifications.
 - When When I constructed the Controllers, I used Framework Entity to build one with actions.
 - It already has the majority of the methods (GET, POST, DELETE etc.)
