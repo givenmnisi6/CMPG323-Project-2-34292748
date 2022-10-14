@@ -1,5 +1,4 @@
-# CMPG323-Project-2-34292748
-## Application Programming Interfaces (APIs) Development
+# Application Programming Interfaces (APIs) Development
 
 ## More about the Project
 Now we're more connected than ever, you can purchase anything with your fingertips from desktops, phones, etc. But how does data get from here to there, how do devices and applications connect to allow us to place an order, make a reservation or book a flight with just a few things. That's where the Application Programming Interface (API) comes in, it is the engine under the hood and is behind the scenes that we take for granted but it's what makes possible all the interactivity we've come to expect and rely upon. An API is a messenger that takes requests and tells a system what you want to do and then returns the response to you. To make it clearer think of an API as a waiter in a restaurant and imagine you're sitting with a menu of choice to order from, in the kitchen is the part of the system which will prepare your order. What is missing is the communication link between your order and the kitchen that will deliver your food back to your table. That's where the API (waiter) comes in, it is the messenger that takes your request or order and tells the system (kitchen) what to do, and delivers the response back to you which is food.
